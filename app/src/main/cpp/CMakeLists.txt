@@ -27,6 +27,9 @@ add_library( # Sets the name of the library.
         SHARED
 
         # Provides a relative path to your source file(s).
+        wrapper/BaseDevice.cpp
+        wrapper/DeviceManager.cpp
+        wrapper/DeviceOperator.cpp
         native-lib.cpp)
 
 add_subdirectory(usb)

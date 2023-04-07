@@ -1,4 +1,4 @@
-package com.cyl.libusb.usb;
+package com.cyl.libusb.usb.device;
 
 public enum UsbSpeed {
     /** The OS doesn't report or know the device speed. */

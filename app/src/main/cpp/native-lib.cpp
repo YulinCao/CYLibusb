@@ -102,7 +102,7 @@ Java_com_cyl_libusb_LibusbUtils_getUsbList(
 
         rc = libusb_get_device_descriptor(device_list[i], &desc);
 //        if(rc)
-            LOGD("libusb Vendor:Device = %04x:%04x\n", desc.idVendor, desc.idProduct);
+        LOGD("libusb Vendor:Device = %04x:%04x\n", desc.idVendor, desc.idProduct);
     }
     libusb_free_device_list(device_list, 1);
 
